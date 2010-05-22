@@ -1,0 +1,14 @@
+Name:                getflag
+Version:             1.0
+Description:         Parsing of Plan 9-style command line flags
+License:             MIT
+License-file:        LICENSE
+category:            Parsing
+Author:              Troels Henriksen
+Maintainer:          athas@sigkill.dk
+Build-Depends:       base
+Exposed-modules:     System.Console.GetFlag
+cabal-version:       >= 1.2
+build-type:          Simple
+build-depends:       base==4.*, containers
+ghc-options:         -Wall
